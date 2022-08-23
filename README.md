@@ -20,9 +20,9 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
 - [x] 5-1: _JavaScript - DOM e seletores_
-- [x] 5-2: _JavaScript - Trabalhando com itens_
-- [x] 5-3: _JavaScript - Eventos_
-- [x] 5-4: _JavaScript - Armazenamento na Web_
+- [] 5-2: _JavaScript - Trabalhando com itens_
+- [] 5-3: _JavaScript - Eventos_
+- [] 5-4: _JavaScript - Armazenamento na Web_
 - [] 5-5: _ [Projeto - Gerador de Memes] () _
 - [x] 5-6: _ [Projeto - Pixel Art] () _
 - [] 5-7: _ [Projeto - Lista de tarefas] () _
@@ -36,7 +36,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - [x] 6-3: _CSS Flexbox - Parte 1_
 - [x] 6-4: _CSS Flexbox - Parte 2_
 - [] 6-5: _CSS responsivo - Mobile First_
-- [] 6-6: _ [Projeto - página inicial do Facebook] () _
+- [] 6-6: _ [Projeto - Trybewarts] () _
 
 ##### Bloco 7: JavaScript ES6 e testes de unidade
 
