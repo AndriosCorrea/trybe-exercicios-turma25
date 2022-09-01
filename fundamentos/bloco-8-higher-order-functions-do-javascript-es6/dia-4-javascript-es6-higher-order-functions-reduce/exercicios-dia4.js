@@ -89,3 +89,55 @@ const books = [
 //  }
  
 // console.log(reduceNames())
+
+// 🚀 3- Calcule a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados.
+// const expectedResult = 43;
+
+// function averageAge() {
+//    const numberBooks = books.length;
+//    const sumAges = books.reduce((sum, book) => {
+//       return sum + (book.releaseYear - book.author.birthYear)
+//    },0);
+//    return sumAges / numberBooks
+//  }
+// 4 - Encontre o livro com o maior nome.
+
+// ...
+// function longestNamedBook() {
+//    return books.reduce((biggestBook, currentBook) => {
+//      if (currentBook.name.length > biggestBook.name.length) {
+//        return currentBook;
+//      }
+//      return biggestBook;
+//    });
+//  }
+
+// 5 - Dada o array de nomes, retorne a quantidade de vezes em que aparecem a letra a maiúscula ou minúscula.
+
+// // const names = [
+//   'Aanemarie', 'Adervandes', 'Akifusa',
+//   'Abegildo', 'Adicellia', 'Aladonata',
+//   'Abeladerco', 'Adieidy', 'Alarucha',
+// ];
+
+// function containsA() {
+//   return names.reduce((acc, currWord) =>
+//      acc + currWord.split('').reduce((acumulator, currLetter) => {
+//         if (currLetter === 'a' || currLetter === 'A') return acumulator + 1;
+//         return acumulator;
+//      }, 0), 0);
+// }
+// 6 - Para o próximo exercício você deve criar um novo array de objetos a partir das informações de students e grades, onde cada objeto desse novo array terá o formato { name: nome do aluno, average: media das notas }. Para isso vamos assumir que a posição 0 de grades refere-se ao estudante na posição 0 de students. Para resolver este exercício, além de reduce, será necessário utilizar também a função map. Dica: Você pode acessar o index do array dentro de map, e você pode ver o objeto esperado na constante expected.
+
+const students = ['Pedro Henrique', 'Miguel', 'Maria Clara'];
+const grades = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
+
+function studentAverage() {
+  return nameAndAverage = students.map((student, index) => (
+    {
+    name: student,
+    average: (grades[index].reduce((acc, curr) => acc + curr, 0) / grades[index].length),
+  }
+  ));
+}
+
